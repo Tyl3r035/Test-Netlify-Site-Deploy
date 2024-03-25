@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    background-color: #f8f8f8;
+    overflow: auto;
+    z-index: -1;
+}
+#header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    padding: 25px;
+    z-index: 999;
+}
+#header #nav {
+    font-size: 1.6rem;
+}
+#header #nav a{
+    margin: 0 8px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.83);
+}
+#nav .active{
+    color: #CB6CE6 !important;
+    cursor: initial !important;
+}
+/* Home and General CSS */
+#main{
+    position: relative;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.main-container{
+    margin: 120px auto;
+    background: #fff;
+    border-radius: 1px;
+    padding: 50px 0;
+    text-align: center;
+    width: 90%;
+}
+.main-heading{
+    font-size: 2.5rem;
+}
+.page-heading{
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.73);
+}
+.page-spacer{
+    margin: 100px 0;
+}
+.guest-box{
+    text-align: center;
+}
+.hours-container{
+    margin: 20px auto 0 auto;
+    background: #fff;
+    border-radius: 1px;
+    padding: 50px 0;
+    width: 80%;
+}
+.operation-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.83);
+}
+.days, .hours{
+    padding: 0 10px;
+}
+.days li{
+    text-align: left;
+    list-style-type: none;
+    width: 120px;
+    margin: 15px 0;
+    padding: 0;
+}
+.hours li{
+    text-align: right;
+    list-style-type: none;
+    width: 120px;
+    margin: 15px 0;
+    padding: 0;
+}
+.operation-disclaimer{
+    text-align: center;
+    margin: 0;
+}
+.operation-note{
+    font-size: 1.1rem;
+    color:rgba(0, 0, 0, 0.83);
+    margin:10 0 20px 0;
+    padding: 0;
+}
+.operation-span{
+    font-size: 1.2rem;
+    color:rgba(0, 0, 0, 0.93);
+}
+.operation-phone{
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.93);
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    /* Enter Styles here */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 15px;
+}
+.footer-heading{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.93);
+    margin: 0;
+    padding: 0 0 3px 0;
+}
+.footer-item{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.83);
+    padding: 3px;
+    margin: 0;
+}
+.footer-item a{
+    text-decoration: none;
+    color: inherit;
+}
+.link-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link{
+    margin: 8px;
+}
+.facebook-icon{
+    color: #1877F2;
+    font-size: 2rem;
+}
+.instagram-icon{
+    color: #C13584;
+    font-size: 2rem;
+}
+
+.messenger-icon{
+    color: #A334FA;
+    font-size: 2rem;
+}
+
+/* About Page CSS */
+.about-heading{
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.93);
+    margin-bottom: 25px;
+}
+.about-paragraph{
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.73);
+    font-weight: 500;
+}
+.groomer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+.groomer-img{
+    width: 400px !important;
+    height: 150px !important;
+    background-color: #fff;
+}
+.text-left{
+    margin-right: 40px;
+}
+.text-right{
+    margin-left: 40px;
+}
+
+.groomer-name{
+    font-size: 1.5rem;
+    color: #CB6CE6;
+    text-align: center;
+}
+.groomer-text{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+/* Contact Page CSS */
+.contact-container{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contact-heading{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.83);
+}
+.contact-spacer{
+    margin: 30px 0 !important;
+}
+.contact-phone{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.93);
+}
+.contact-subheading-1{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.83);
+}
+.contact-subheading-2{
+ font-size: 1.6rem;
+ color: rgba(0, 0, 0, 0.83);
+}
+.contact-email{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.73);
+}
